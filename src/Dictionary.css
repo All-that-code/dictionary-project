@@ -1,0 +1,29 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.searchBar {
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-right: 5px;
+  height: 33px;
+  padding-left: 8px;
+}
+
+::placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+
+.searchBtn {
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  padding: 8px 15px;
+  background-color: black;
+  color: white;
+}
