@@ -13,8 +13,8 @@ export default function Dictionary() {
     event.preventDefault();
     alert(`Searching for ${keyword}`);
 
-    let apiUrl =
-      "https://api.shecodes.io/dictionary/v1/define?word=sunset&key=8o03bb70ba39844fdc4a5a5t25cc70b6";
+    let apiKey = "8o03bb70ba39844fdc4a5a5t25cc70b6";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
