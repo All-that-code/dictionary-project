@@ -6,10 +6,10 @@ export default function Meaning(props) {
   return (
     <div className="WordMeaning mt-5 mb-5">
       <h4>{props.meaning.partOfSpeech}</h4>
-      <div className="Definition text-capitalize mt-3">
+      <div className="Definition text-lowercase mt-3">
         <p>{props.meaning.definition}</p>
       </div>
-      <div className="Example text-capitalize">
+      <div className="Example text-lowercase">
         <p>{props.meaning.example}</p>
       </div>
     </div>
