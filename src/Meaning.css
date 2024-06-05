@@ -1,0 +1,16 @@
+.Example {
+  font-style: italic;
+  color: #7d7d7d;
+}
+
+body {
+  line-height: 1em;
+}
+
+.WordMeaning {
+  margin-left: 20px;
+}
+
+h4 {
+  font-weight: 600;
+}

@@ -1,11 +1,11 @@
 .words-logo {
-  max-width: 500px;
+  max-width: 400px;
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .App-header {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 footer {
