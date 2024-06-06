@@ -1,0 +1,11 @@
+.Photos {
+  border: solid 1.3px rgb(38, 38, 38);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 20px;
+  padding: 10px;
+}
