@@ -1,14 +1,28 @@
 .words-logo {
-  max-width: 400px;
+  max-width: 380px;
   display: block;
-  margin: 40px auto;
-}
-
-.App-header {
-  margin-top: 150px;
+  margin: 70px auto 40px;
 }
 
 footer {
-  margin-top: 20px;
   font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.App {
+  border: solid 1.3px black;
+  border-radius: 15px;
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+  padding-bottom: 50px;
+  background-color: #ffffff40;
+  box-shadow: 5px 10px 19px #827e7e40;
+}
+
+.Title {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 21px;
 }

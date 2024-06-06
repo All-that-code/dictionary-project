@@ -33,6 +33,10 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
       </form>
+      <div className="Hint text-center">
+        <small>i.e. Anachronism, Cajole, Onomatopoeia </small>
+      </div>
+
       <Results results={results} />
     </div>
   );

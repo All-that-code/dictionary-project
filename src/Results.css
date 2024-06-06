@@ -1,14 +1,29 @@
-h2 {
+.WordPhoneticsSection h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 30px;
   margin-left: 20px;
+  margin-right: 20px;
+  color: white;
 }
 
 h3 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: italic;
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 300;
   margin-left: 20px;
+  color: white;
+}
+
+.WordPhoneticsSection {
+  background: rgb(38, 38, 38);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.MeaningSection {
+  border: solid 1.3px rgb(38, 38, 38);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
 }

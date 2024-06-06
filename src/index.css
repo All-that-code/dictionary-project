@@ -1,3 +1,7 @@
 body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/319/original/background_2.png?1717699107");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(38, 38, 38);
   font-family: "Plus Jakarta Sans", sans-serif;
 }
