@@ -14,7 +14,26 @@ function App() {
           <Dictionary defaultKeyword="Aurora" />
         </main>
       </div>
-      <footer className="text-center">Coded by Amaia Arbizu</footer>
+      <footer className="text-center">
+        {" "}
+        Coded with joy by{" "}
+        <a
+          href="https://zubizu-studio.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Amaia Arbizu
+        </a>
+        , open-sourced on{" "}
+        <a
+          href="https://github.com/All-that-code/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>{" "}
+        and hosted on Netlify.
+      </footer>
     </div>
   );
 }
