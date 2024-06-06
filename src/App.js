@@ -11,7 +11,7 @@ function App() {
           <img src={words} className="words-logo img-fluid" alt="tittle" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Aurora" />
         </main>
       </div>
       <footer className="text-center">Coded by Amaia Arbizu</footer>
